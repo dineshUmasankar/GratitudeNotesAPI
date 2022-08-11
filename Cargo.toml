@@ -1,0 +1,20 @@
+[package]
+name = "gratitude_notes_api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+
+[profile.release]
+
+# By default on Linux and macOS, symbol information is included in the compiled .elf file. 
+# This information is not needed to properly execute the binary.
+strip = true
+
+# By default, Cargo instructs compilation units to be compiled and optimized in isolation. 
+# LTO instructs the linker to optimize at the link stage. 
+# This can, for example, remove dead code and often times reduces binary size.
+lto = true
