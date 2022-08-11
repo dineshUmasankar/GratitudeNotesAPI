@@ -9,6 +9,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Cargo Test](https://github.com/gratitude-notes/GratitudeNotesAPI/actions/workflows/cargo-test.yml/badge.svg?branch=main)](https://github.com/gratitude-notes/GratitudeNotesAPI/actions/workflows/cargo-test.yml)
 
 
 
