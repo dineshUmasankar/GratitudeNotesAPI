@@ -1,3 +1,6 @@
+# Cargo Test runs tests within src/tests folder
+# to verify that all routes are behaving to their
+# intended functionality.
 name: Cargo Test
 
 on:
